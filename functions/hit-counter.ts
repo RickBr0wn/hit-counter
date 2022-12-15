@@ -1,4 +1,4 @@
-import { ENV } from './../config'
+import { ENV } from './config'
 import { APIGatewayEvent } from 'aws-lambda'
 import { initializeApp } from 'firebase/app'
 import { doc, getFirestore, increment, updateDoc } from 'firebase/firestore'
